@@ -34,8 +34,3 @@ npm run build
 ```sh
 docker run -it --name my-apache-app -p 8080:80 -v "$PWD/dist":/usr/local/apache2/htdocs/ httpd:2.4
 ```
-
-# Buddy Works
-```sh
-docker exec -it parcelm_container /bin/sh -c "npm run build"
-```
